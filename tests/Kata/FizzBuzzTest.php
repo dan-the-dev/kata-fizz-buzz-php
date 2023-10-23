@@ -3,15 +3,15 @@
 namespace Kata;
 
 use PHPUnit\Framework\TestCase;
-use Kata\Main;
+use Kata\FizzBuzz;
 
-class MainTest extends TestCase
+class FizzBuzzTest extends TestCase
 {
-    private Main $main;
+    private FizzBuzz $main;
 
     protected function setUp(): void
     {
-        $this->main = new Main();
+        $this->main = new FizzBuzz();
     }
 
     public function testShallPass(): void
